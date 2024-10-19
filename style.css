@@ -48,4 +48,54 @@ padding: 1em;
     background: #FF900E;
     border-radius: 40px;
 }
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+    
+}
 
+.banner-content{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.banner-content h1{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: "Work Sans";
+font-size: 4em;
+font-style: normal;
+font-weight: 700;
+margin-bottom: .5em;
+}
+.banner-content p{
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 2em;
+
+}
+
+.banner-content button{
+    color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-weight: 600;
+border: none;
+border-radius: 8px;
+background: #FF900E;
+padding: 1em;
+cursor: pointer;
+}
+.banner-image{
+    text-align: center;
+}
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
