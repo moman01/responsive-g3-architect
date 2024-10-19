@@ -5,4 +5,47 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
+header{
+   background: rgba(255, 144, 14, 0.10);
+   padding-top: 3em;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+nav ul{
+   
+    display: flex;
+ 
+}
+.nav-item{
+    list-style-type: none;
+    margin-left: 2em;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+padding: 1em; 
+}
+.nav-link:hover{
+    background: #FF900E;
+    border-radius: 40px;
+}
 
